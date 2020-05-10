@@ -1,0 +1,20 @@
+import java.lang.*;
+import java.io.*;
+
+//If control statement
+public class ControlIf {
+    public static void main(String args[]){
+
+        // validating a number is postive or negative
+        int num=-4;
+        if(num==0){
+            System.out.println("Number is equal to Zero");
+        }
+        else if(num > 0){
+            System.out.println("Number is Positive");
+        }
+        else {
+            System.out.println("Number is Negative");
+        }
+    }
+}
